@@ -18,3 +18,12 @@
   height: 128px;
   border-radius: 4px;
 }
+
+.DishCard .SauceList {
+  background-color: transparent;
+  color: antiquewhite;
+}
+
+.DishCard .SauceList li {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
