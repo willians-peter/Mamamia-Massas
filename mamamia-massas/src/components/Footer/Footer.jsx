@@ -1,45 +1,32 @@
 import "./Footer.css";
+import instagranLogo from "../../assets/insta_logo.png";
+import faceLogo from "../../assets/face_logo.png";
+import whatsLogo from "../../assets/whats_logo.png";
 
 function Footer() {
   return (
     <footer className="Footer">
       <div>
         <div className="RichText">
-          <p>
-            <strong>Objetivo:</strong> Finalizar o projeto do cardápio digital
-            integrando todos os componentes.
-          </p>
-          <p>Requisitos:</p>
-          <ul>
-            <li>
-              Criar um <strong>rodapé</strong> com:
-            </li>
-            <li>Ícones de redes sociais (ex: Instagram, Facebook, etc.)</li>
-            <li>Endereço fictício do restaurante</li>
-            <li>
-              Criar um componente <code>Cardapio</code> que agrupe todos os
-              outros
-            </li>
-            <li>
-              Renderizar o componente <code>Cardapio</code> dentro do arquivo{" "}
-              <code>App.jsx</code>
-            </li>
-            <li>
-              <strong>Validar a tipagem de todos os componentes</strong> (use{" "}
-              <code>props</code> definidas)
-            </li>
-          </ul>
-          <p>
-            Dica: Use uma biblioteca de ícones se precisar (
-            <a
-              href="https://github.com/react-icons/react-icons"
-              target="_blank"
-            >
-              GitHub - react-icons/react-icons: svg react icons of popular icon
-              packs
+          <div id="Icones">
+            <a id icone href="https://www.instagram.com/accounts/login/">
+              <img src={instagranLogo} alt="Logotipo do Instagran" />
             </a>
-            ).
+
+            <a href="https://www.facebook.com/?locale=pt_BR">
+              <img src={faceLogo} alt="Logotipo do Facebock" />
+            </a>
+          </div>
+          <h2>Mamamia Massas</h2>
+          <p>
+            Endereço: número 4 da Rua dos Alfeneiros, em Little Whinging,
+            Surrey.
           </p>
+          <a href="https://web.whatsapp.com/">
+            <img src={whatsLogo} alt="Logotipo do Whatsapp" />
+          </a>
+          <p>Telofone (47) 91234-56789</p>
+          <a href="mailto:contato@mamamiamassas.com.br">Enviar Email</a>
         </div>
       </div>
     </footer>

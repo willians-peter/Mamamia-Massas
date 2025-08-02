@@ -5,6 +5,7 @@ import GnocchiPage from "./pages/GnocchiPage/GnocchiPage";
 import PastasPage from "./pages/PastasPage/PastasPage";
 import DrinksPage from "./pages/DrinksPage/DrinksPage";
 
+
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <GnocchiPage />
         <PastasPage />
         <DrinksPage />
+       
         <Footer />
       </main>
     </div>

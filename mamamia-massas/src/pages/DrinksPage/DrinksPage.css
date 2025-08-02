@@ -1,0 +1,24 @@
+.DrinksPage .drinks-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DrinksPage .drinks-columns > div {
+  width: 48%;
+}
+
+.DrinksPage .RichText ul {
+  list-style: none;
+  padding: 0;
+}
+
+.DrinksPage .RichText li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.DrinksPage .RichText strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 1.2em;
+}

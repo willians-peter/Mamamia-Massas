@@ -1,34 +1,40 @@
+import "./DrinksPage.css";
 import PageSection from "../../components/PageSection/PageSection";
 
 function DrinksPage() {
   return (
     <PageSection id="drinks" title="Bebidas" className="DrinksPage">
-      <div className="RichText">
-        <p>
-          <strong>Objetivo:</strong> Criar a seção de bebidas com categorias e
-          preços.
-        </p>
-        <p>Requisitos:</p>
-        <ul>
-          <li>Categorias:</li>
-          <li>
-            <strong>Água</strong>
-          </li>
-          <li>
-            <strong>Refrigerantes</strong>: Coca-Cola, Guaraná, Sprite
-          </li>
-          <li>
-            <strong>Sucos</strong>: Morango, Laranja, Uva
-          </li>
-          <li>Cada item deve exibir: nome e valor</li>
-        </ul>
-        <p>
-          Dica: Use cards ou listas agrupadas por categoria para melhor
-          organização visual.
-        </p>
+      <div className="RichText drinks-columns">
+        <div>
+          <strong>Não Alcoólicas:</strong>
+          <ul>
+            <li>Água - R$ 3,00</li>
+            <li>Água com gás - R$ 4,00</li>
+            <li>Água Tônica - R$ 5,00</li>
+          </ul>
+          <strong>Sucos:</strong>
+          <ul>
+            <li>Morango - R$ 8,00</li>
+            <li>Laranja - R$ 8,00</li>
+            <li>Uva - R$ 8,00</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Refrigerantes:</strong>
+          <ul>
+            <li>Coca-Cola - R$ 7,00</li>
+            <li>Guaraná - R$ 6,00</li>
+            <li>Sprite - R$ 6,00</li>
+          </ul>
+          <strong>Alcoólicas:</strong>
+          <ul>
+            <li>Vinho tinto (taça) - R$ 15,00</li>
+            <li>Vinho tinto (garrafa) - R$ 80,00</li>
+            <li>Vinho branco (garrafa) - R$ 80,00</li>
+          </ul>
+        </div>
       </div>
     </PageSection>
   );
 }
-
 export default DrinksPage;

@@ -8,7 +8,8 @@ function Header() {
   return (
     <header className="Header">
       <div>
-        <img src={spaghettiLogo} alt="Spaghetti Logo" style={{borderRadius: '8px', width: '32px', height: '32px', objectFit: 'contain', maxWidth: '32px', maxHeight: '32px' }} />
+        <img src={spaghettiLogo} alt="Spaghetti Logo" style={{borderRadius: '8px', width: '32px', height: '32px', objectFit:
+           'contain', maxWidth: '32px', maxHeight: '32px' }} />
         <h1>Mamamia Massas</h1>
         <nav>
           <MenuContainer>
