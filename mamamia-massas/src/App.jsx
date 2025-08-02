@@ -1,16 +1,24 @@
-import { useState } from "react";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import HomePage from "./pages/HomePage/HomePage";
+import GnocchiPage from "./pages/GnocchiPage/GnocchiPage";
+import PastasPage from "./pages/PastasPage/PastasPage";
+import DrinksPage from "./pages/DrinksPage/DrinksPage";
+
 import "./App.css";
-import Header from "./assets/components/header/header.jsx";
-import LadoDireito from "./assets/components/rigth/rigth.jsx";
-import LadoEsquerdo from "./assets/components/left/left.jsx";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Header />
-      <LadoEsquerdo />
-      <LadoDireito />
-    </>
+      <main>
+        <HomePage />
+        <GnocchiPage />
+        <PastasPage />
+        <DrinksPage />
+        <Footer />
+      </main>
+    </div>
   );
 }
 

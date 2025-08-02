@@ -1,12 +1,14 @@
-# React + Vite
+exercício trello Mamamia Massas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[M01S08] Exercício 1: Cardápio Digital - Menu Descrição Objetivo: Criar um componente de menu de navegação para um cardápio digital utilizando a componentização do React. O menu deve conter: O nome do restaurante: Mamamia Massas As seguintes opções de navegação: Início, Gnocchi, Pastas, Bebidas Dica: Utilize uma
 
-Currently, two official plugins are available:
+com uma lista ou botões estilizados.
+[M01S08] Exercício 2: Cardápio Digital - Tela de Apresentação Descrição Objetivo: Criar um componente de apresentação com layout dividido em duas seções. Requisitos: Lado esquerdo: Frase principal: "Servindo massas há mais de 70 anos" Subfrase: "Qualidade passada por gerações" Lado direito: Imagem fictícia representando a fachada do restaurante. Dica: Use CSS Flexbox ou Grid para dividir a tela horizontalmente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[M01S08] Exercício 3: Cardápio Digital - Gnocchi Descrição Objetivo: Criar a seção de Gnocchis utilizando dois componentes: Lista de Gnocchis e Lista de Molhos. Componente 1: Gnocchis Exibir 4 tipos: Gnocchi de Batata Gnocchi de Espinafre Gnocchi de Cenoura Gnocchi de Beterraba Cada item deve ter: nome, valor e imagem ilustrativa. Os cards devem ser exibidos em colunas de 2 em 2. Componente 2: Molhos Lista não ordenada com os seguintes molhos: Alla Puttanesca Al Pesto di Basilico Cacio e Pepe Alla Matriciana
 
-## Expanding the ESLint configuration
+[M01S08] Exercício 4: Cardápio Digital - Pastas Descrição Objetivo: Criar a seção de pastas utilizando cards e integrar com o componente de molhos. Requisitos: Exibir as massas em cards, 3 por linha Cada card deve mostrar: nome da massa, imagem ilustrativa, valor e os molhos permitidos Use o componente de molhos para exibir as opções disponíveis para cada massa Massas e molhos permitidos: Espaguete: Alla Puttanesca, Al Pesto di Basilico, Cacio e Pepe, Alla Matriciana Tagliatelle: Alla Puttanesca, Alla Matriciana Fettuccine: Alla Puttanesca, Al Pesto di Basilico, Cacio e Pepe Penne: Alla Puttanesca, Cacio e Pepe Rigatoni: Alla Matriciana Pappardelle: Alla Puttanesca, Alla Matriciana
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[M01S08] Exercício 5: Cardápio Digital - Bebidas Descrição Editar Objetivo: Criar a seção de bebidas com categorias e preços. Requisitos: Categorias: Água Refrigerantes: Coca-Cola, Guaraná, Sprite Sucos: Morango, Laranja, Uva Cada item deve exibir: nome e valor Dica: Use cards ou listas agrupadas por categoria para melhor organização visual.
+
+[M01S08] Exercício 6: Cardápio Digital - Finalização do Cardápio Descrição Editar Objetivo: Finalizar o projeto do cardápio digital integrando todos os componentes. Requisitos: Criar um rodapé com: Ícones de redes sociais (ex: Instagram, Facebook, etc.) Endereço fictício do restaurante Criar um componente Cardapio que agrupe todos os outros Renderizar o componente Cardapio dentro do arquivo App.jsx Validar a tipagem de todos os componentes (use props definidas) Dica: Use uma biblioteca de ícones se precisar (GitHub - react-icons/react-icons: svg react icons of popular icon packs).

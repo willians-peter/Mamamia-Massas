@@ -1,0 +1,6 @@
+.CardGrid {
+  display: grid;
+  /* estilo referência para colunas dinâmicas */
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 16px;
+}

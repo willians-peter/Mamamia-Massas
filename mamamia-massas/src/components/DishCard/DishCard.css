@@ -1,0 +1,20 @@
+.DishCard {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #410121;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DishCard > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.DishCard img {
+  width: 128px;
+  height: 128px;
+  border-radius: 4px;
+}
