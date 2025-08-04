@@ -9,11 +9,16 @@ function Footer() {
       <div>
         <div className="RichText">
           <div id="Icones">
-            <a id icone href="https://www.instagram.com/accounts/login/">
+            <a
+              id
+              icone
+              href="https://www.instagram.com/accounts/login/"
+              target="_blank"
+            >
               <img src={instagranLogo} alt="Logotipo do Instagran" />
             </a>
 
-            <a href="https://www.facebook.com/?locale=pt_BR">
+            <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
               <img src={faceLogo} alt="Logotipo do Facebock" />
             </a>
           </div>
@@ -22,7 +27,7 @@ function Footer() {
             Endereço: número 4 da Rua dos Alfeneiros, em Little Whinging,
             Surrey.
           </p>
-          <a href="https://web.whatsapp.com/">
+          <a href="https://web.whatsapp.com/" target="_blank">
             <img src={whatsLogo} alt="Logotipo do Whatsapp" />
           </a>
           <p>Telofone (47) 91234-56789</p>
